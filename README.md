@@ -4,9 +4,7 @@ This is a Node/Express/MongoDB REST API for contacts that uses JWT authenticatio
 
 ## Getting Started
 
-```
-  Open the config/default.json file and add your mongoURI and your jwtSecret
-```
+
 
 ```bash
   npm install
