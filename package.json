@@ -4,9 +4,14 @@
 	"description": "Backend for Contact Keeper app",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js",
-		"server": "nodemon server.js"
+		"start": "node start.js",
+		"server": "nodemon start.js",
+		"test": "jest",
+		"test:watch": "jest --watch"
 	},
+	"jest": {
+		"testEnvironment": "node"
+	  },
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
@@ -19,6 +24,8 @@
 	},
 	"devDependencies": {
 		"concurrently": "^4.1.0",
-		"nodemon": "^1.19.0"
+		"jest": "26.6.3",
+		"nodemon": "^1.19.0",
+		"supertest": "6.1.3"
 	}
 }
